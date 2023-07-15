@@ -48,6 +48,6 @@ app.get("/vehicle/search/:model", function (req, res) {
     }
     res.status(404).send("Vehicle not found");
 });
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log("Server running!");
 });
