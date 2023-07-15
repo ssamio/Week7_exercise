@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"nodemon ./dist/src/main.js\"",
-    "start": "npx tsc && node ./dir/src/main.js"
+    "start": "npx tsc && node ./dist/src/main.js"
   },
   "keywords": [],
   "author": "",
