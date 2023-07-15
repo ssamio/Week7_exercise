@@ -11,7 +11,7 @@ export interface Car extends Vehicle {
 }
 
 export interface Plane extends Vehicle {
-    "wingSpan": number;
+    "wingspan": number;
 }
 
 export interface Boat extends Vehicle {

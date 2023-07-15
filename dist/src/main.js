@@ -22,7 +22,7 @@ app.post("/vehicle/add", function (req, res) {
             "power": req.body.power,
             "bodyType": req.body.bodyType,
             "wheelCount": req.body.wheelCount,
-            "wingSpan": req.body.wingSpan,
+            "wingspan": req.body.wingspan,
             "draft": req.body.draft
         };
         data.push(target);
