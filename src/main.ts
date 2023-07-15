@@ -3,7 +3,7 @@ import path from "path";
 import { Vehicle, Car, Plane, Boat } from "../models/Vehicle.type";
 
 const app: Express = express();
-const port: number = 5000;
+const port: number = 3000;
 app.use(express.json());
 let data: (Vehicle|Car|Plane|Boat)[]  = [];
 
