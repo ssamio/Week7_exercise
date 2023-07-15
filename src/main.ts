@@ -39,7 +39,7 @@ app.get("/vehicle/search/:model", function(req, res){
     try{
         for(let i: number = 0; i < data.length; i++){
             if(data[i].model == target){
-                let result: Vehicle = data[i];
+                let result: (Vehicle|Car|Boat|Plane) = data[i];
                 return res.send(result);
             }
         }    
